@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Арканоид</string>
+    <string name="dialog_new_player_header">Новый игрок</string>
+    <string name="dialog_loose_game_header">Проигрыш</string>
+    <string name="dialog_options_header">Настройки</string>
+    <string name="warning_header">Внимание!</string>
+
+    <string name="no_saved_game">Сохранённая игра не найдена</string>
+    <string name="you_lose">К сожалению вы проиграли</string>
+    <string name="input_player_name">Введите имя игрока</string>
+    <string name="input_player_name_here">Введите имя здесь</string>
+    <string name="input_new_player_name">Создайте нового игрока</string>
+    <string name="back_to_menu">Вернуться в главное меню</string>
+
+    <string name="nickname">Ник</string>
+    <string name="scores">Очки</string>
+    <string name="stage">Уровень</string>
+    <string name="chose_player_or_create_new">Выберите игрока или создайте нового</string>
+
+    <string name="new_game">Новая игра</string>
+    <string name="back_to_game">Вернуться в игру</string>
+    <string name="options">Настройки</string>
+    <string name="about">Об игре</string>
+    <string name="leaders">Таблица лидеров</string>
+    <string name="player_change">Выбрать игрока</string>
+    <string name="exit">Выйти из игры</string>
+
+    <string name="sounds_volume">Громкость звуков</string>
+    <string name="music_volume">Громкость музыки</string>
+
+    <string name="statusbar_lives">Жизни-</string>
+    <string name="statusbar_scores">Очки-</string>
+    <string name="statusbar_stage">Уров.-</string>
+    <string name="statusbar_player">Игрок-</string>
+</resources>

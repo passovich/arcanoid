@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Arcanoid</string>
+    <string name="dialog_new_player_header">New player</string>
+    <string name="dialog_loose_game_header">loosing game</string>
+    <string name="dialog_options_header">Options</string>
+    <string name="warning_header">Warning!</string>
+
+    <string name="no_saved_game">No game file found</string>
+    <string name="you_lose">You loose</string>
+    <string name="input_player_name">Input player name</string>
+    <string name="input_player_name_here">Input name here</string>
+    <string name="input_new_player_name">Create a new player</string>
+    <string name="back_to_menu">Back to menu</string>
+
+
+    <string name="nickname">Nickname</string>
+    <string name="scores">Scores</string>
+    <string name="stage">Stage</string>
+    <string name="chose_player_or_create_new">Chose your player or create new</string>
+
+    <string name="new_game">New game</string>
+    <string name="back_to_game">Back to game</string>
+    <string name="options">Options</string>
+    <string name="about">About</string>
+    <string name="leaders">Leaders</string>
+    <string name="player_change">Player change</string>
+    <string name="exit">Exit game</string>
+
+    <string name="sounds_volume">Sounds volume</string>
+    <string name="music_volume">Music volume</string>
+
+    <string name="statusbar_lives">Lives-</string>
+    <string name="statusbar_scores">Scores-</string>
+    <string name="statusbar_stage">Stage-</string>
+    <string name="statusbar_player">Player-</string>
+</resources>

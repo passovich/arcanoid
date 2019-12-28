@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+
+   android:gravity="center_horizontal|center_vertical"
+   tools:context=".PlayerChangeActivity">
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/new_game" />
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/back_to_game" />
+   <Button
+       android:id="@+id/button3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/options" />
+   <Button
+       android:id="@+id/button4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/about" />
+   <Button
+       android:id="@+id/button5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/leaders" />
+   <Button
+       android:id="@+id/button6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/player_change" />
+   <Button
+       android:id="@+id/button7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="18dp"
+       android:layout_marginTop="15dp"
+       style="@style/buttonStyle"
+       android:text="@string/exit" />
+
+
+
+   </LinearLayout>

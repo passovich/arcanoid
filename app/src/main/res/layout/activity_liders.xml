@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center_horizontal|center_vertical"
+        tools:context=".PlayerChangeActivity">
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            style="@style/buttonStyle"
+            android:text="@string/back_to_menu" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+        <TableRow
+            android:layout_marginLeft="20dp"
+            android:weightSum="100">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nickname"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="40"
+                android:textColor="@color/colorTableFont"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/scores"
+                android:textSize="17dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="20"
+                android:textColor="@color/colorTableFont"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/stage"
+                android:textSize="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="15"
+                android:textColor="@color/colorTableFont"/>/>
+
+        </TableRow>
+    </TableLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"/>
+
+    </LinearLayout>

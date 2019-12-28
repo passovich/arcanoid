@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerChangeActivity"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout1"
+    android:gravity="center_horizontal">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        style="@style/buttonStyle"
+        android:text="Ок" />
+    <TextView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chose_player_or_create_new"
+        android:textSize="20dp"
+        android:textColor="@color/colorTableFont"/>
+
+    <EditText
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorTableFont"
+        android:textColor="@color/colorTableFont"
+        android:hint="@string/input_player_name_here"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+</LinearLayout>
